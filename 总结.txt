@@ -260,3 +260,6 @@ this 是指向当前对象的常指针 ,它的形式为 type* const this; this是成员函数被调用时
 
 	// 41.static linking 静态链接 其它的库
 		将头文件和lib文件包含的项目的目录中，注意对应的Solution和Platform
+
+	   42.dynamic link 动态链接
+		动态链接需要包含include目录，然后需要添加标记了动态库dll的静态库文件，xxxdll.lib，最后需要把动态库dll放到exe文件能够访问到的位置
